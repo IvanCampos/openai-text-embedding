@@ -1,6 +1,5 @@
 import os
 import io
-import json
 import openai
 import numpy as np
 from numpy.linalg import norm
@@ -26,7 +25,7 @@ def lambda_handler(event, context):
 
     # print(df)
 
-    search_term = "hot dog"
+    search_term = "dunkin"
 
     search_term_vector_embeddings = get_embeddings_for_text(search_term)
 
