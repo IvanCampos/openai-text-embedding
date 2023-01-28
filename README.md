@@ -1,6 +1,6 @@
 # openai-text-embedding
 
-Uncover hidden connections and find the most semantically similar text to your search term with just a CSV file and OpenAI's text embedding model.
+Uncover hidden connections and find the most semantically similar text to your search term with just a CSV file, OpenAI's text embedding model, and AWS Lambda.
 
 ## AWS Lambda
 * Lambda Handler: 
